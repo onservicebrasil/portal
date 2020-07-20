@@ -1,0 +1,98 @@
+<div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Criação de sites para apresentar com qualidade sua empresa, produtos e
+                                        serviços para milhões de pessoas na Internet.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Criação de Sites<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Criação de campanhas de Links Patrocinados para anunciar seus Serviços e
+                                        Produtos para milhões de pessoas na Internet.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Links Patrocinados<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Administração de Mídias Sociais, Criação e Publicação de conteúdos, Gestão de
+                                        Crise e Acompanhamento.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Mídias Sociais<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Otimização de Sites, Lojas Virtuais, Blogs e Aplicativos para melhorar seu
+                                        posicionamento nos buscadores.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Marketing de Busca<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Estratégias de criação e compartilhamento de conteúdo segmentado, com foco na
+                                        atração e fidelização do consumidor.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Inbound Marketing<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="layer"></div>
+                                <div class="content">
+                                    <p>Criação de música ou canção podendo ser utilizada em uma campanha de
+                                        publicidade para divulgar um produto ou serviço.</p>
+                                    <div class="image">
+                                        <img src="images/favicon.ico" alt="test image">
+                                    </div>
+                                    <div class="details">
+                                        <h2>Jingle<br>
+                                            <span>Saiba mais</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>

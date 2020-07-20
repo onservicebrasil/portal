@@ -1,0 +1,261 @@
+/* -------------------------------------------------------------------------- */
+/*                                    TAGS                                    */
+/* -------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+a{
+    color: #fff;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                     ID                                     */
+/* -------------------------------------------------------------------------- */
+#title {
+    text-align: left;
+    padding-bottom: 15%;
+}
+
+#services {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+/* -------------------------------------------------------------------------- */
+/*                         White and Colored Sections                         */
+/* -------------------------------------------------------------------------- */
+.colored-section{
+    background-color: #005082;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+/* -------------------------------------------------------------------------- */
+/*                                 Containers                                 */
+/* -------------------------------------------------------------------------- */
+.container-fluid {
+    padding: 5% 15%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Title Section                             */
+/* -------------------------------------------------------------------------- */
+#title .container-fluid{
+    padding: 3% 15% 0%;
+}
+.row{
+    margin-top: 15%;
+}
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+#title .video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   Nav Bar                                  */
+/* -------------------------------------------------------------------------- */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* -------------------------------------------------------------------------- */
+/*                              Transform Buttons                              */
+/* -------------------------------------------------------------------------- */
+
+.transform-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                SERVICES                              */
+/* -------------------------------------------------------------------------- */
+#services .container-fluid{
+    padding: 0% 15% 10% 15%;
+}
+.text-services {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.text-services2 {
+    color: #6f6f6f;
+}
+.icon {
+    color: #ef8172;
+    padding: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+.services .card{
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    background: #005082;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0,0, .5);
+    overflow: hidden;
+    margin-top: 10%;
+}
+.services .card .layer{
+    position: absolute;
+    top: calc(100% - 2px);
+    background: linear-gradient(#00a8cc,#ffa41b  );
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+.services .card:hover .layer{
+  top: 0;
+}
+.services .card .content{
+    position: relative;
+    z-index: 2;
+}
+.services .card .content p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#fff;
+}
+.services .card .content .image{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0,0, .2);
+}
+.services .card .content .details h2{
+ font-size: 18px;
+ color:#fff;
+}
+.services .card .content .details h2 span{
+    font-size: 14px;
+    transition: 0.5s;
+    color: #00a8cc;
+   }
+   .services .card:hover .content .details h2 span{
+    color: #fff;
+   }
+
+
+   .img-help{
+       width: 20%;
+   }
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+.big-heading-contact{
+color: #005082;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+size: 3.5rem;
+line-height: 1.5;
+}
+#footer .p{
+    color: #fff;
+}
+/* -------------------------------------------------------------------------- */
+/*                                 Media Query                                */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    #title .container-fluid{
+    padding-bottom: 60rem;
+    }
+
+    #title .big-heading-group{
+        position: relative;
+        top: 34.375rem;
+    }
+    #services .container-fluid{
+        padding: 0% 15%;
+        padding-bottom: 10%;
+    }
+
+    .services .card {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+        background: #005082;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0, 0,0, .5);
+        overflow: hidden;
+        margin-top: 10%;
+    }
+    .services .card .content p{
+        font-size: 30px;
+        line-height: 29px;
+        color:#fff;
+  
+    }
+    .services .card .content .details h2{
+        font-size: 39px;
+        color:#fff;
+       }
+       .services .card .content .details h2 span{
+        font-size: 19px;
+        transition: 0.5s;
+        color: #00a8cc;
+       }
+      #transformacao .big-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        size: 3.5rem;
+        line-height: 1.5;
+        color: #fff;
+    }
+
+}
